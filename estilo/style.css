@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  background-color: #0b9444;
+  padding: 3px 0;
+  width: 100%;
+}
+header img {
+  width: 30%;
+  height: 90%;
+  margin-left: 30px;
+}
+header img:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.caixa .opçoes {
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 20px;
+  right: 350px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0 0 150px;
+}
+nav li:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.dbr-botao button {
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 10px 40px;
+  border: 0;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: 300px;
+  margin-top: 1em;
+  background-color: #f01924;
+  color: #fff;
+}
+.dbr-botao button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  box-shadow: 0px 0px 8px #f01924;
+}
