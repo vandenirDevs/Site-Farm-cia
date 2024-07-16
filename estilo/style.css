@@ -34,6 +34,7 @@ nav {
 nav li {
   display: inline-block;
   margin: 0 0 0 150px;
+  margin-top: 25px;
 }
 nav li:hover {
   transform: scale(1.1);
@@ -52,8 +53,8 @@ nav a {
   border: 0;
   cursor: pointer;
   margin: 10px;
-  margin-left: 300px;
-  margin-top: 1em;
+  margin-left: 270px;
+  margin-top: 30px;
   background-color: #f01924;
   color: #fff;
 }
@@ -68,9 +69,10 @@ body {
 .topo-site .interface {
   text-align: center;
   padding: 40px 4%;
-  margin-top: 350px;
+  margin-top: 850px;
   color: #fff;
   font-size: 30px;
+  display: block;
 }
 .promocoes {
   display: inline-block;
