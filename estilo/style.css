@@ -69,7 +69,7 @@ body {
 .topo-site .interface {
   text-align: center;
   padding: 40px 4%;
-  margin-top: 850px;
+  margin-top: 300px;
   color: #fff;
   font-size: 30px;
   display: block;
@@ -77,5 +77,5 @@ body {
 .promocoes {
   display: inline-block;
   padding: 40px 12%;
-  margin-top: 70px;
+  margin-top: 20px;
 }
