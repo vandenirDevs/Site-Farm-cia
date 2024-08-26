@@ -8,6 +8,7 @@ header {
   padding: 3px 0;
   width: 100%;
   position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
 }
@@ -53,7 +54,7 @@ nav a {
   border: 0;
   cursor: pointer;
   margin: 10px;
-  margin-left: 270px;
+  margin-left: 640px;
   margin-top: 30px;
   background-color: #f01924;
   color: #fff;
@@ -69,13 +70,103 @@ body {
 .topo-site .interface {
   text-align: center;
   padding: 40px 4%;
-  margin-top: 300px;
+  margin-top: 200px;
   color: #fff;
   font-size: 30px;
   display: block;
 }
 .promocoes {
+  display: inline;
+  padding: 40px 4%;
+  margin-top: px;
+}
+.promocoes img {
+  width: 260px;
+  height: 400px;
+  background-color: #f01924;
+  border-radius: 25px;
+  margin-top: 60px;
+}
+
+.loja{
+  padding: 60px 0%;
+  justify-content: center;
+  margin-left: 25px;
+}
+ 
+ .loja h1{
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.loja1 img{
+  width: 260px;
+  height: 400px;
+  border-radius: 25px;
+  margin
+}
+
+.loja .loja1{
   display: inline-block;
-  padding: 40px 12%;
-  margin-top: 20px;
+  position: relative;
+  width: 260px;
+  height: 400px;
+  border-radius: 25px;
+  margin: 20px 30px;
+}
+
+
+.loja1 img{
+  position: relative;
+  z-index: -1;
+}
+
+
+.legenda {
+  visibility: hidden;
+  position: absolute;
+  left: 80px;
+  right: 80px;
+  bottom: 200px;
+  text-align: center;
+}
+.legenda p{
+  margin: 40px 5px;  
+  margin-bottom: 120px;
+  color: #fff;
+  font-size: 15pt;
+  font-weight: bold; 
+  display: block;
+  position: relative;
+}
+
+.legenda button{
+  width: 0;
+  border-style: none;
+  text-decoration: none;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  margin-top: 120px;
+  margin-left: 32px;
+  display: flex;
+}
+
+
+.legenda i{
+  font-size: 30pt;
+  background-color: #0b9444;
+  color: #fff;
+  border-radius: 100%;
+ 
+}
+
+.loja1:hover .legenda{
+  visibility: visible;
+  transition: 0.5s;
+}
+.loja1:hover{
+  background-color: #00000048;
+  transition: 0.5s;
 }
