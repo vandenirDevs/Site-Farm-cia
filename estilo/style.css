@@ -1,6 +1,13 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+body{
+align-items: center;
+justify-content: center;
+
+
 }
 header {
   display: flex;
@@ -75,17 +82,22 @@ body {
   font-size: 30px;
   display: block;
 }
-.promocoes {
-  display: inline;
-  padding: 40px 4%;
-  margin-top: px;
+.carrossel{
+  box-shadow: 2px 2px 4px #000;
+  overflow: hidden;
+  height: 416.67px;
+  width: 1250px;
+  margin-top: -100px;
 }
-.promocoes img {
-  width: 260px;
-  height: 400px;
-  background-color: #f01924;
-  border-radius: 25px;
-  margin-top: 60px;
+.container{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+.container img {
+  object-fit: cover;
+  height: 416.67px;
+  width: 1250px;
 }
 
 .loja{
